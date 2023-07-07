@@ -37,6 +37,15 @@ li a::after{
 li a:hover::after{
     width: 100%;
 }
+.btn{
+    float: right;
+    display: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+#check{
+    display: none;
+}
 main{
     display: flex;
     height: 100vh;
@@ -72,16 +81,6 @@ main p{
 }
 .cta{
     padding: 15px 30px;
-    background: #C4c4f7;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-weight: 700px;
-    text-transform: uppercase;
-    border-radius: 50px;
-}
-.signup-btn{
-    padding: 10px 20px;
     background: #C4c4f7;
     color: #fff;
     outline: none;
